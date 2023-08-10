@@ -95,8 +95,8 @@ android {
     namespace "com.codemagicsample"
     defaultConfig {
         applicationId 'io.codemagic.dtrdic5'
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion 46
+        targetSdkVersion 46
         versionCode getMyVersionCode()
         versionName getMyVersionName()
 
