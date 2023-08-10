@@ -10,7 +10,6 @@ workflows:
             - google_play_credentials
           vars:
             PACKAGE_NAME: "io.codemagic.dtrdic5"
-          node: 16.14.2
         scripts:
           - name: Install npm dependencies
             script: | 
