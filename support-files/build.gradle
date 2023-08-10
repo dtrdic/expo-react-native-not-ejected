@@ -90,7 +90,7 @@ def getMyVersionName = { ->
 android {
     ndkVersion rootProject.ext.ndkVersion
 
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion r46
 
     namespace "com.codemagicsample"
     defaultConfig {
