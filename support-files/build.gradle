@@ -92,7 +92,7 @@ android {
 
     compileSdkVersion r46
 
-    namespace "com.codemagicsample"
+    namespace "io.codemagic.dtrdic5"
     defaultConfig {
         applicationId 'io.codemagic.dtrdic5'
         minSdkVersion 46
