@@ -17,7 +17,7 @@ workflows:
           - name: Install Expo CLI and eject 
             script: | 
               #npx expo start
-              npm install -g expo-cli #users also no longer need to run this
+              npm install -g expo@latest #users also no longer need to run this
               npx expo upgrade
               #expo eject
               expo prebuild #nova komanda umjesto expo ejecta
